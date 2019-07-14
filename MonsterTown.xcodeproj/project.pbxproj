@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91C026222DB75C100CEB816 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91C026122DB75C100CEB816 /* Monster.swift */; };
+		B91C026422DB765F00CEB816 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91C026322DB765F00CEB816 /* Zombie.swift */; };
+		B91C026622DB76B000CEB816 /* ZombieBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91C026522DB76B000CEB816 /* ZombieBoss.swift */; };
 		B9E6669F22DB6CD800C5BDF9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6669E22DB6CD800C5BDF9 /* main.swift */; };
+		B9E666A622DB6D9400C5BDF9 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E666A522DB6D9400C5BDF9 /* Town.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B91C026122DB75C100CEB816 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		B91C026322DB765F00CEB816 /* Zombie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		B91C026522DB76B000CEB816 /* ZombieBoss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombieBoss.swift; sourceTree = "<group>"; };
 		B9E6669B22DB6CD800C5BDF9 /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E6669E22DB6CD800C5BDF9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B9E666A522DB6D9400C5BDF9 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				B9E6669E22DB6CD800C5BDF9 /* main.swift */,
+				B91C026322DB765F00CEB816 /* Zombie.swift */,
+				B91C026522DB76B000CEB816 /* ZombieBoss.swift */,
+				B91C026122DB75C100CEB816 /* Monster.swift */,
+				B9E666A522DB6D9400C5BDF9 /* Town.swift */,
 			);
 			path = MonsterTown;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E6669F22DB6CD800C5BDF9 /* main.swift in Sources */,
+				B91C026622DB76B000CEB816 /* ZombieBoss.swift in Sources */,
+				B91C026422DB765F00CEB816 /* Zombie.swift in Sources */,
+				B91C026222DB75C100CEB816 /* Monster.swift in Sources */,
+				B9E666A622DB6D9400C5BDF9 /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
